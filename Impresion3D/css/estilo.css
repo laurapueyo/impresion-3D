@@ -1,0 +1,34 @@
+h1{
+    font-family:'Fjalla One', sans-serif;
+}
+header>img{
+    object-fit: cover;
+    width: 100%;
+    height: 111px;
+    margin:auto;
+
+}
+
+.menu{
+    text-decoration: none;
+    color: black;
+    padding: 40px;
+}
+
+.columna{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+
+}
+figure>img,figcaption,a{
+    
+    width: 100%;
+    margin:auto;
+
+}
+img{
+    width: 90%;
+    height: 300px;
+    margin:auto;
+    object-fit: scale-down;
+}
